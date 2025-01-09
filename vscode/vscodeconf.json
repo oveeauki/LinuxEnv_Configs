@@ -22,6 +22,9 @@
     "*.cpp": "cpp",
     "*.hpp": "cpp"      
   },
+  "files.exclude": {
+    // Something Here 
+},
   "files.autoSave": "off",
   "explorer.confirmDelete": false,
   "git.enabled": false,
@@ -39,10 +42,6 @@
     "activityBar.foreground":"#ffffff"
   },
   "window.menuBarVisibility": "toggle",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook",
-    "*.jar": "default"
-  },
   "terminal.integrated.fontFamily": "monospace",
   "security.workspace.trust.enabled": false,
   "editor.formatOnPaste": false,
@@ -50,13 +49,6 @@
   "editor.autoIndent": "none",
   "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.snippetSuggestions": "none",
@@ -64,16 +56,16 @@
   "terminal.integrated.fontWeight": "bold",
   "terminal.integrated.fontSize": 15,
   "editor.guides.indentation": false,
-"liveshare.guestApprovalRequired": true,
-"vscord.status.idle.timeout": 3600,
-"vscord.status.details.text.idle": "Away",
-"vscord.status.details.text.notInFile": "Void",
-"vscord.status.state.text.editing": "Editing ➜ {file_name}{file_extension}@{current_line}:{current_column}",
-"vscord.status.state.text.idle": "Away",
-"vscord.status.problems.text": "- [{problems_count}] problems found",
-"workbench.colorTheme": "Seti Black",
-"workbench.editor.empty.hint": "hidden",
-"C_Cpp.intelliSenseCachePath": "../../../.cache/vscode-cpptools/",
-"editor.lightbulb.enabled": "off",
-"cmake.showOptionsMovedNotification": false
+  "liveshare.guestApprovalRequired": true,
+  "vscord.status.idle.timeout": 3600,
+  "vscord.status.details.text.idle": "Away",
+  "vscord.status.details.text.notInFile": "Void",
+  "vscord.status.state.text.editing": "Editing ➜ {file_name}{file_extension}@{current_line}:{current_column}",
+  "vscord.status.state.text.idle": "Away",
+  "vscord.status.problems.text": "- [{problems_count}] problems found",
+  "workbench.colorTheme": "Seti Black",
+  "workbench.editor.empty.hint": "hidden",
+  "C_Cpp.intelliSenseCachePath": "../../../.cache/vscode-cpptools/",
+  "editor.lightbulb.enabled": "off",
+  "cmake.showOptionsMovedNotification": false
 } 
