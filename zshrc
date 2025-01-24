@@ -29,7 +29,7 @@ alias lsblk="grc lsblk"
 alias ping="grc ping"
 alias l="tree -f -L 1"
 alias lsize="tree -fh -L 1"
-alias g++win='docker run -v "$(pwd)":/vol -it cppwin'
+alias g++win='docker run -v "$(pwd)":/vol -w /vol -it cppwin'
 alias grep='grep --color=always'
 export PATH=$PATH:/bin/omatsetit:/usr/local/lib/:/home/fredi/.cargo/bin
 export GREP_COLORS=$GREP_COLORS:'ms=01;91'
