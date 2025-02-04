@@ -10,8 +10,7 @@ set signcolumn=no
 set scl=no
 set wrap linebreak nolist
 set number          
-set relativenumber  
-set mouse=a         
+set relativenumber      
 set clipboard=unnamed  
 set autoindent     
 set smartindent     
