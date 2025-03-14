@@ -1,4 +1,5 @@
 {
+  "window.titleBarStyle": "native",
   "timeline.pageSize": 1,
   "outline.collapseItems": "alwaysCollapse",
   "npm.scriptExplorerAction": "open",
@@ -9,18 +10,20 @@
   "editor.fontLigatures": true,
   "editor.fontWeight": "1000",
   "editor.fontFamily": "cousine",
+  "workbench.colorTheme": "Seti Black",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontSize": 15,
   "editor.bracketPairColorization.enabled": false,
   "editor.minimap.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.cursorStyle": "underline",
   "files.associations": {
     "*.php": "php",
     ".dircolors": "shellscript",
     "*.c": "c",
     "*.h": "c",
+    "*.cu":"c",     
     "*.cpp": "cpp",
-    "*.hpp": "cpp"      
+    "*.hpp": "cpp"
   },
   "files.exclude": {
     // Something Here 
@@ -63,9 +66,13 @@
   "vscord.status.state.text.editing": "Editing ➜ {file_name}{file_extension}@{current_line}:{current_column}",
   "vscord.status.state.text.idle": "Away",
   "vscord.status.problems.text": "- [{problems_count}] problems found",
-  "workbench.colorTheme": "Seti Black",
   "workbench.editor.empty.hint": "hidden",
   "C_Cpp.intelliSenseCachePath": "../../../.cache/vscode-cpptools/",
   "editor.lightbulb.enabled": "off",
-  "cmake.showOptionsMovedNotification": false
-} 
+  "cmake.showOptionsMovedNotification": false,
+  "material-icon-theme.files.associations": {
+      "*.out": "hex"
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+  "window.customTitleBarVisibility": "never",
+}
