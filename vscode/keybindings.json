@@ -7,9 +7,5 @@
     {
         "key": "ctrl+alt+pageup",
         "command": "workbench.action.focusFirstEditorGroup"
-    },
-    {
-        "key": "ctrl+1",
-        "command": "-workbench.action.focusFirstEditorGroup"
     }
 ]
