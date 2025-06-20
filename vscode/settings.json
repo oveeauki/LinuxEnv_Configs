@@ -1,0 +1,91 @@
+{
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "window.customTitleBarVisibility": "never",
+
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "1000",
+  "editor.fontFamily": "cousine",
+  "editor.fontSize": 15,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.autoIndent": "none",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "none",
+  "editor.renderWhitespace": "none",
+  "editor.guides.indentation": false,
+  "editor.lightbulb.enabled": "off",
+
+  "workbench.localHistory.maxFileEntries": 3,
+  "workbench.panel.showLabels": false,
+  "workbench.colorTheme": "Seti Black",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "scm.diffDecorations": "none",
+  "outline.collapseItems": "alwaysCollapse",
+  "npm.scriptExplorerAction": "open",
+  "liveshare.guestApprovalRequired": true,
+
+  "files.associations": {
+    "*.php": "php",
+    ".dircolors": "shellscript",
+    "*.c": "c",
+    "*.h": "c",
+    "*.cu":"c",     
+    "*.cpp": "cpp",
+    "*.hpp": "cpp"
+  },
+  "files.exclude": {
+    // Something Here 
+},
+  "files.autoSave": "off",
+  "explorer.confirmDelete": false,
+  "git.enabled": false,
+  "[typescript]": { "editor.autoClosingBrackets": "always"},
+  "[javascript]": { 
+    "editor.autoClosingBrackets": "always",
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+},
+  "[cpp]": { 
+  "editor.autoClosingBrackets": "always",
+ },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#000000",
+    "statusBar.foreground":"#ffffff",
+    "activityBar.foreground":"#ffffff"
+  },
+  "security.workspace.trust.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vscord.status.idle.timeout": 3600,
+  "vscord.status.details.text.idle": "Away",
+  "vscord.status.details.text.notInFile": "Void",
+  "vscord.status.state.text.editing": "Editing ➜ {file_name}{file_extension}@{current_line}:{current_column}",
+  "vscord.status.state.text.idle": "Away",
+  "vscord.status.problems.text": "- [{problems_count}] problems found",
+  "workbench.editor.empty.hint": "hidden",
+  "C_Cpp.intelliSenseCachePath": "../../../.cache/vscode-cpptools/",
+  "cmake.showOptionsMovedNotification": false,
+  "material-icon-theme.files.associations": {
+      "*.out": "hex"
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true
+}
